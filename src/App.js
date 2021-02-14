@@ -52,7 +52,7 @@ ${data.name} already exists`);
     const normalizedFilter = filter.toLowerCase();
 
     return contacts.filter((contact) =>
-      contact.name.toLocaleLowerCase().includes(NormalizedFilter)
+      contact.name.toLocaleLowerCase().includes(normalizedFilter)
     );
   };
 
